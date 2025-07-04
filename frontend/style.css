@@ -1,19 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #eef2f7;
+    background-color: #ffffff;
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
   }
   
   .container {
-    max-width: 600px;
+    max-width: 900px;
     margin: 40px auto;
-    background: white;
+    background: rgb(43, 57, 131);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 img {
+    height: 110px;
+    align-items: center;
   }
   
   h1, h3 {
     text-align: center;
+    color: #ffffff;
   }
   
   form {
@@ -29,7 +40,7 @@ body {
   }
   
   button {
-    background-color: #2563eb;
+    background-color: #0b07f3;
     color: white;
     border: none;
     cursor: pointer;
@@ -39,6 +50,7 @@ body {
   table {
     width: 100%;
     border-collapse: collapse;
+    color: #ffffff;
   }
   
   th, td {
@@ -48,7 +60,7 @@ body {
   }
   
   th {
-    background-color: #2563eb;
+    background-color: #1e78ff;
     color: white;
   }
   
